@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DTC Bus Route</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			font-size: 25px;
+		}
+		input{
+			width: 200px;
+			margin: 10px;
+			padding: 5px;
+		}
+		#btn{
+			width:100px;
+			margin: 10px;
+			padding: 5px;
+			font-size: 15px;
+		}
+
+	</style>
+</head>
+<body>
+	<h2>DTC Bus Routes</h2>
+	<form method="get" action="/">
+		From:
+  <input type="text" name="start" placeholder="Enter source stop name"><br>
+  To:
+  <input type="text" name="end" placeholder="Enter destination stop name"><br>
+  <input type="submit" value="Find route!" id="btn">
+	</form>
+
+</body>
+</html>
